@@ -86,7 +86,7 @@ main {
 }
 
 .action .action-content .action-description {
-    color: #252432;
+    color: rgba(37, 36, 50, 0.5);
     font-size: 24px;
     margin: 23px 0;
 }
