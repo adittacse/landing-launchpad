@@ -1,3 +1,11 @@
+
+.raleway{
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    background-color: rgba(214, 221, 237, .2);
+}
+
 /* shared styles */
 
 .primary-color {
@@ -60,7 +68,7 @@ nav ul li a {
 
 /* main styles */
 
-main {
+section {
     max-width: 1140px;
     margin: 0 auto;
 }
@@ -101,6 +109,9 @@ main {
 .productive-users {
     background-color: rgba(78, 71, 255, 0.1);
     border-radius: 10px;
+}
+
+.productive-users-area {
     padding: 50px 142px;
 }
 
@@ -125,4 +136,48 @@ main {
 .productive-users-content .content-description {
     color: rgba(0, 0, 0, 0.5);
     margin: 0;
+}
+
+/* get in touch section styles */
+
+.get-in-touch {
+    margin-top: 95px;
+    display: flex;
+    gap: 115px;
+    padding: 71px 0;
+}
+
+.column {
+    width: 50%;
+}
+
+.column .get-in-touch-title {
+    font-size: 97px;
+    font-weight: bold;
+}
+
+.column form label {
+    /* margin-bottom: 10px; */
+    font-size: 18px;
+    color: rgba(0, 0, 0, 1);
+}
+
+.column form input[type="email"], .column form input[type="text"], .column form textarea {
+    height: 70px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 20px 32px;
+    border: 0;
+    border-radius: 10px;
+    width: 497px;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.5);
+    background-color: #FFFFFF;
+    display: block;
+}
+
+.column form input[type="submit"] {
+    width: 100%;
+    padding: 19px 201px;
+    margin-top: 38px;
 }
