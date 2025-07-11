@@ -95,3 +95,34 @@ main {
     width: 403px;
     border-radius: 48px;
 }
+
+/* productive-users section styles */
+
+.productive-users {
+    background-color: rgba(78, 71, 255, 0.1);
+    border-radius: 10px;
+    padding: 50px 142px;
+}
+
+.productive-users-title {
+    font-size: 38px;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.productive-users-content {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.productive-users-content .content-title {
+    font-size: 80px;
+    margin: 0;
+}
+
+.productive-users-content .content-description {
+    color: rgba(0, 0, 0, 0.5);
+    margin: 0;
+}
