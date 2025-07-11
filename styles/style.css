@@ -211,6 +211,34 @@ section {
     margin-top: 2px;
 }
 
+/* focus section styles */
+
+.focus {
+    margin-top: 137px;
+    padding: 71px 0px;
+    background-color: #FFFFFF;
+    text-align: center;
+    border-radius: 14px;
+}
+
+.focus-title {
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.focus-description {
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 32px;
+}
+
+.focus img {
+    margin-top: 20px !important;
+    display: block;
+    margin: 0 auto;
+    border-radius: 48px;
+}
+
 /* get in touch section styles */
 
 .get-in-touch {
