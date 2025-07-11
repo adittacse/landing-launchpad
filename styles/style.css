@@ -3,7 +3,7 @@
     font-family: "Raleway", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
-    background-color: rgba(214, 221, 237, .2);
+    background-color: rgba(214, 221, 237, .3);
 }
 
 /* shared styles */
@@ -19,6 +19,11 @@
     border: none;
     border-radius: 5px;
     padding: 12px 36px;
+}
+
+.btn-primary:hover {
+    color: black;
+    background-color: yellow;
 }
 
 /* header styles */
@@ -138,6 +143,74 @@ section {
     margin: 0;
 }
 
+/* review section styles */
+
+.review {
+    margin-top: 135px;
+}
+
+.review-section-title {
+    font-size: 42px;
+    font-weight: bold;
+    text-align: center;
+    color: #252432;
+    margin-bottom: 50px;
+}
+
+.client-review {
+    display: flex;
+    gap: 20px;
+}
+
+.client-review .single-review {
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 14px;
+    padding: 24px 24px;
+    max-width: 367px;
+}
+
+.client-review .single-review .review-star {
+    display: flex;
+    gap: 4px;
+    margin-bottom: 24px;
+    color: #FFB805;
+}
+
+.client-review .single-review .review-title {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.client-review .single-review .review-description {
+    font-size: 18px;
+    margin-top: 8px;
+    margin-bottom: 24px;
+}
+
+.client-review .single-review .user {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.client-review .single-review .user img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.client-review .single-review .user .user-info .user-name {
+    color: #757575;
+    font-weight: bold;
+    margin: 0;
+}
+
+.client-review .single-review .user .user-info .review-date {
+    color: #B3B3B3;
+    margin-top: 2px;
+}
+
 /* get in touch section styles */
 
 .get-in-touch {
@@ -159,6 +232,7 @@ section {
 .column form label {
     /* margin-bottom: 10px; */
     font-size: 18px;
+    font-weight: 500;
     color: rgba(0, 0, 0, 1);
 }
 
@@ -166,8 +240,8 @@ section {
     height: 70px;
     margin-top: 10px;
     margin-bottom: 20px;
-    padding: 20px 32px;
-    border: 0;
+    padding: 0 32px;
+    border: 1px solid #e0e0e0;
     border-radius: 10px;
     width: 497px;
     font-size: 20px;
@@ -176,8 +250,55 @@ section {
     display: block;
 }
 
+.column form input[type="email"]:focus, .column form input[type="text"]:focus, .column form textarea:focus {
+    outline: none;
+}
+
+.column form textarea {
+    height: auto;
+    padding-top: 20px;
+}
+
 .column form input[type="submit"] {
     width: 100%;
     padding: 19px 201px;
     margin-top: 38px;
+}
+
+/* footer styles */
+
+footer {
+    text-align: center;
+    padding: 104px 0;
+    background-color: #FFFFFF;
+}
+
+.footer-content {
+    max-width: 531px;
+    margin: 0 auto;
+}
+
+.footer-logo {
+    font-size: 100px;
+    margin: 0;
+}
+
+.footer-description {
+    color: #8987A1;
+    margin-bottom: 20px;
+}
+
+.footer-content ul {
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+}
+
+.footer-content ul li {
+    list-style: none;
+}
+
+.footer-content ul li a {
+    text-decoration: none;
+    color: #8987A1;
 }
