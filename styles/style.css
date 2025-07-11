@@ -17,7 +17,7 @@
     background-color: #4E47FF;
     font-weight: bold;
     border: none;
-    border-radius: 5px;
+    border-radius: 8px;
     padding: 12px 36px;
 }
 
@@ -51,7 +51,7 @@ nav ul li a {
 
 .logo {
     font-size: 34px;
-    font-weight: 700;
+    font-weight: 800;
 }
 
 /* banner styles */
